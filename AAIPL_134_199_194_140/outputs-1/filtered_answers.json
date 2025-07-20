@@ -1,0 +1,79 @@
+[
+    {
+        "answer": "A",
+        "reasoning": "This is a classic example of a self-referential paradox. If A says B is a liar, then A is indeed a liar. But if B says A is a liar, then B must be telling the truth, which means A is not a liar. This creates a contradiction, so the only possible conclusion is that A is not a liar, and B is the truth-teller."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Since the Chinese sits adjacent to the American, and the American is at the extreme left end, the Chinese must sit at the extreme left end. The Indian sits at the extreme right end, and the Japanese sits two seats to the left of the coffee-drinker, who sits opposite the Italian. Given the constraints, the only valid arrangement is Chinese-Indian-Japanese-American-Italian. Therefore, the Chinese sits at the extreme left end."
+    },
+    null,
+    {
+        "answer": "A",
+        "reasoning": "This is the only option where the statement 'A is a liar' and 'B is a liar' are both true, making A the truth-teller. Since exactly two are liars, A and B must be the two liars. Given that C says A and B are of different types, and A is a liar, C must be a truth-teller. This scenario is impossible because if A is a truth-teller, B cannot be a liar, and if B is a truth-teller, then C cannot be a liar. Therefore, the only option where exactly two are liars is A saying B is a liar. Hence, A is the truth-teller."
+    },
+    {
+        "answer": "A",
+        "reasoning": "If B says, 'A is a liar,' and A says, 'B is a liar,' then both A and B are liars. Since there are exactly two liars, the person who says, 'B is a liar,' must be the truth-teller, as it is the only one left who can be a truth-teller. This eliminates option B, making it the correct answer."
+    },
+    {
+        "answer": "A",
+        "reasoning": "To determine the truth-teller, let's analyze the statements. If A says B is a liar, and B says C is a liar, then C's statement 'A and B are of different types' must be true. Since exactly two are liars, A and B cannot both be liars. This means A and B must be the truth-tellers. However, C's statement 'A and B are of different types' cannot be true if A and B are truth-tellers, as they would not be of different types. Therefore, C must be the truth-teller."
+    },
+    {
+        "answer": "A",
+        "reasoning": "This is the correct answer because if A says B is a liar, then B's statement 'A is a liar' must be true, which means A is the truth-teller. If B said A is a liar, then A must be lying, which means B is the liar. Since the statement 'B is a liar' is true, B must be the truth-teller, and A must be the liar."
+    },
+    {
+        "answer": "A",
+        "reasoning": "To find the truth-teller, let's analyze the statements. If A says B is a liar, and B says C is a liar, then C's statement implies that A is the truth-teller. However, if exactly two are liars, then A and B cannot both be liars. Therefore, C must be the truth-teller, as his statement is true. This eliminates A and B, leaving C as the only option. Since C is the truth-teller, he is the correct answer."
+    },
+    {
+        "answer": "C",
+        "reasoning": "If the man is a truth-teller, then his statement is true. Therefore, his brother is not a knave. Since the man says 'If I am a liar, then my brother is a knave,' this implies that his statement about his brother being a knave is true. If the man is a truth-teller, then his brother cannot be a knave. Hence, the man's brother must be a truth-teller."
+    },
+    {
+        "answer": "D",
+        "reasoning": "This is the only option that fits the given conditions. If Aryan's grandfather is the brother of his mother's only sister, then Aryan's mother must be his paternal aunt. If she is married to the only brother of Aryan's paternal grandfather's daughter-in-law, then Aryan's paternal grandfather must be the brother of his mother's sister, making Aryan's mother his paternal aunt. Therefore, Aryan's father cannot be Aryan's paternal uncle (A) or brother-in-law (C), as they would be his paternal grandfather's son or daughter, not his mother's sister. Only option D, nephew, is a possible relationship, making it the correct choice."
+    },
+    null,
+    {
+        "answer": "A",
+        "reasoning": "In a village of 1000 people, 500 are liars and 500 are truth-tellers. If A claims B is a liar, and B claims A is a truth-teller, we can deduce that A is a truth-teller. Since A is a truth-teller, A cannot be a liar. Therefore, B must be a liar. If B is a liar, then A is a truth-teller, which contradicts our initial assumption. Thus, the only possibility is that B is a liar. Therefore, the truth-teller is A, and the liar is B."
+    },
+    null,
+    null,
+    null,
+    {
+        "answer": "B",
+        "reasoning": "From the statement, Aryan said the man is the son of my mother's only sister, who is married to the only brother of my paternal grandfather's daughter-in-law. This implies that the man is the brother-in-law of Aryan's paternal grandfather's daughter-in-law. Since the man is married to the daughter of Aryan's paternal grandfather's daughter-in-law, the man is the brother-in-law of Aryan's paternal grandfather's daughter. Therefore, the man is the brother-in-law of Aryan. This makes Aryan the uncle of the man."
+    },
+    null,
+    null,
+    {
+        "answer": "C",
+        "reasoning": "From the given information, we can deduce that the eldest child (A) is married to B's sister, and B's sister is C's daughter. Therefore, A is the sibling of C. Since the eldest child is also married to D's mother, and D's mother is B's sister, the eldest child (A) is the sibling of D. Therefore, the eldest child is the brother of the youngest child."
+    },
+    null,
+    null,
+    null,
+    {
+        "answer": "B",
+        "reasoning": "If A and B are liars, then A says they are of different types, but B says they are not. Since A is a liar, A's statement must be false, making it true that A and B are of different types. Therefore, C, who says A and B are of different types, is the truth-teller."
+    },
+    null,
+    null,
+    {
+        "answer": "B",
+        "reasoning": "This is because Arya's paternal grandfather is the son of her paternal grandfather's son. Arya's mother is married to the brother of her paternal grandfather's daughter. Since Arya's paternal grandfather is the son of her paternal grandfather's son, Arya's paternal grandfather is Arya's paternal grandfather's son. Therefore, Arya's paternal grandfather is the brother of Arya's paternal grandfather's daughter-in-law, making Arya's paternal grandfather's daughter-in-law Arya's mother. Arya's mother is the wife of Arya's paternal grandfather's daughter, making Arya a maternal cousin of Arya's paternal grandfather's daughter-in-law."
+    },
+    {
+        "answer": "C",
+        "reasoning": "If A is telling the truth, then A is a liar. If B is lying, then C is a truth-teller. Since A is telling the truth, A is not a liar. Therefore, C must be a truth-teller because if C were a liar, then A would be a liar, which contradicts A's statement. Hence, C is a truth-teller."
+    },
+    null,
+    {
+        "answer": "C",
+        "reasoning": "This is the only option where Preet's father is the son of his mother's only son, and Preet's brother is married to Preet's mother. This establishes a direct line of descent, making Preet the brother of Preet's mother, which is the only option that satisfies the given conditions."
+    }
+]

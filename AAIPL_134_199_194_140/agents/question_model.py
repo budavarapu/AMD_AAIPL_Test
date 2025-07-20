@@ -8,8 +8,9 @@ class QAgent(object):
         # self.model_type = input("Available models: Qwen3-1.7B and Qwen3-4B. Please enter 1.7B or 4B: ").strip()
         self.model_type = kwargs.get('model_type', '4B').strip()
         # model_name = "Qwen/Qwen3-4B"
-        model_name = "/jupyter-tutorial/hf_models/Qwen3-4B"
-        
+        #model_name = "/jupyter-tutorial/hf_models/Qwen3-4B"
+        model_name = "/jupyter-tutorial/hf_models/Llama-3.2-1B-Instruct"
+
         # load the tokenizer and the model
         self.tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side='left')
         self.model = AutoModelForCausalLM.from_pretrained(
@@ -17,6 +18,9 @@ class QAgent(object):
             torch_dtype="auto",
             device_map="auto"
         )
+        self.tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+        self.model.config.pad_token_id = self.tokenizer.pad_token_id
+
 
     def generate_response(self, message: str|List[str], system_prompt: Optional[str] = None, **kwargs)->str:
         if system_prompt is None:
