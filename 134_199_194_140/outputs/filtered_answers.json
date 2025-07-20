@@ -1,0 +1,66 @@
+[
+    null,
+    {
+        "answer": "B",
+        "reasoning": "Since A is opposite D, they are separated by two people. B is two seats to the left of E, and E is not adjacent to B. C is adjacent to F, who is not adjacent to A. By placing A and D opposite each other and considering the constraints, B must be between A and D."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Ravi is the son of Suman's only sister, making Suman Ravi's uncle. Suman is the brother of Ravi's paternal grandfather's only daughter, meaning Suman is Ravi's maternal uncle. Ravi's mother is the daughter of Ravi's paternal grandfather's only daughter, making Ravi's mother Ravi's aunt. Since Suman is Ravi's maternal uncle and Ravi's mother is Suman's sister, Suman's only daughter is Ravi's cousin."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If P is a truth-teller, then Q is a liar. If Q is a liar, then R is not a truth-teller. If R is a liar, then P is not a liar, which contradicts P being a truth-teller. If P is a liar, then Q is a truth-teller. If Q is a truth-teller, then R is a truth-teller. If R is a truth-teller, then P is a liar, which is consistent. Thus, Q and R are truth-tellers, making the answer B (1 truth-teller)."
+    },
+    {
+        "answer": "C",
+        "reasoning": "If C is the truth-teller, then A is a liar, making A's statement about B being a truth-teller false, so B is a liar. B's statement that C is a liar would then be false, which is consistent because C is a truth-teller. This scenario satisfies the condition of exactly one truth-teller (C)."
+    },
+    null,
+    {
+        "answer": "B",
+        "reasoning": "Ravi is the son of Priya's maternal uncle, making Ravi Priya's cousin. Priya's father's only sister is married to Ravi's paternal grandfather's daughter, which means they are siblings. Thus, Ravi is related to Priya's father as a cousin."
+    },
+    {
+        "answer": "A",
+        "reasoning": "A is the brother of B, who is the daughter of C. I is the child of G and H, with H being the mother of I. Since G is the husband of H, and H is the mother of I, I is the child of H. B is the daughter of C, and H is the mother of I. There is no direct family relation between A and I, but since A is the brother of B, and B is the daughter of C, A is the uncle of I."
+    },
+    null,
+    {
+        "answer": "A",
+        "reasoning": "B is the daughter of C's only brother, making C the aunt of B. A is the son of B's only sister, so A is the nephew of B's brother. D is the son of C's only daughter, making D the son of C's daughter. Since C is the aunt of B, D is the cousin of B. E is the child of D, so E is the cousin of A."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Anjali's father is married to the daughter of Ravi's maternal grandfather's only son. Ravi's maternal grandfather is Anjali's paternal grandfather. The only son of Anjali's paternal grandfather is Anjali's father. Therefore, Anjali's father is Ravi's father-in-law."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Assume D is a truth-teller. Then A is a truth-teller (as D says 'A is a truth-teller'). This makes two truth-tellers (A and D). B says 'C is a truth-teller,' but if B is a liar, then C is a liar. C says 'D is a liar,' but if C is a liar, then D is a truth-teller, which is consistent. Thus, A and D are truth-tellers, and B and C are liars."
+    },
+    {
+        "answer": "B",
+        "reasoning": "From the clues, B is directly opposite C, and A is second to the left of B. D is adjacent to E, who faces outward. F is between G and H, both facing outward. I is opposite J, who is adjacent to K (facing outward). By analyzing the seating arrangement, E is adjacent to D and is facing outward, making E the person between A and B."
+    },
+    {
+        "answer": "C",
+        "reasoning": "K is between A and B, and A is opposite B. Since B is adjacent to C, and B is facing the center, C must be facing outward. D is two seats left of E (facing outward), and F is between G and H (both facing outward). I is adjacent to J (facing the center). The only person facing outward adjacent to B is C."
+    },
+    {
+        "answer": "C",
+        "reasoning": "If C is the knight, then A is a knight (truthful), but A says B is a knave, which would make B a knave (lying). B says C is a knight, which would be a lie if B is a knave. This satisfies the condition of exactly one knight (C). If A were the knight, B would be a knave, and C would be a knight, contradicting the one knight rule. If B were the knight, C would be a knight, also contradicting the rule. Thus, C is the only consistent knight."
+    },
+    {
+        "answer": "C",
+        "reasoning": "From the clues, A is between B and F, so the order is B-A-F or F-A-B. D is two seats to the right of E, so if E is in position 1, D is in 3. G is adjacent to C and faces the center, so C and G are next to each other. B is not adjacent to G, and F is not adjacent to D. Placing these, E is opposite C."
+    },
+    null,
+    {
+        "answer": "B",
+        "reasoning": "From the clues, A is left of B, B is opposite D, and F is adjacent to A and D. C is two seats to the right of E. By placing the people in a circle and satisfying all conditions, E is adjacent to F and B is between E and C."
+    },
+    {
+        "answer": "C",
+        "reasoning": "If Z is the truth-teller, then X is a liar, making X's statement false (so Y is not a liar). Y's statement that Z is a truth-teller would then be true, but this contradicts the condition that only one is a truth-teller. If Y is the truth-teller, then Z is a truth-teller, which contradicts the condition. If X is the truth-teller, then Y is a liar, making Y's statement false (so Z is not a truth-teller), but Z's statement that X is a liar would then be true, contradicting the condition. Thus, the only consistent scenario is if Z is the truth-teller, and the others are liars, making the answer C."
+    }
+]

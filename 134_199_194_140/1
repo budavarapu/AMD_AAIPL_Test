@@ -1,0 +1,4 @@
+div.code_cell .input_area {
+    font-size: 5px !important;
+}
+

@@ -1,0 +1,107 @@
+{
+    "Truth-teller and Liar Problems": [
+        {
+            "question": "On an island, three inhabitants A, B, and C make statements: A says, 'B is a liar.' B says, 'C is a liar.' C says, 'A and B are of different types.' If exactly two are liars, who is the truth-teller?",
+            "choices": [
+                "A) A",
+                "B) B",
+                "C) C",
+                "D) None"
+            ],
+            "answer": "C",
+            "explanation": "C's statement is consistent with A and B being liars. If A and B are both liars, then they are the same type, making C's statement false—but C is supposed to be the truth-teller. The only valid configuration with exactly two liars is A and B lying, and C truthfully stating A and B are of different types, which is false—so contradiction. Try C as liar: then A and B must differ. Let A be truthful (B is liar), then B lies (C is liar), which fits. So only consistent solution: A = truth-teller."
+        },
+        {
+            "question": "In a realm with knights (always truthful), knaves (always lie), and spies (can do either), X says: 'If I am a knight, then Y is a spy.' Y says: 'X is a knave.' What is X and Y?",
+            "choices": [
+                "A) X: knight, Y: spy",
+                "B) X: knave, Y: knight",
+                "C) X: spy, Y: knave",
+                "D) X: knave, Y: spy"
+            ],
+            "answer": "D",
+            "explanation": "Assume X is a knight -> Y must be a spy (from X's statement). Then Y says 'X is a knave'—which contradicts Y being a spy and telling truth. Now try X as knave: knaves lie, so the implication must be false. But 'If P then Q' is only false when P is true and Q is false, which doesn't apply here—so statement vacuously true. Y as spy saying 'X is a knave' may be true or false. Only consistent config: X is knave (lying), Y is spy (can say anything)."
+        },
+        {
+            "question": "Person A says, 'B is a liar.' Person B says, 'A is a truth-teller.' Who is the truth-teller and who is the liar?",
+            "choices": [
+                "A) Both A and B are truth-tellers",
+                "B) Both A and B are liars",
+                "C) A is a truth-teller, B is a liar",
+                "D) A is a liar, B is a truth-teller"
+            ],
+            "answer": "D",
+            "explanation": "If A were a truth-teller, then B would be a liar. But B says A is a truth-teller, which would be a lie if B were a liar, meaning A is a liar—a contradiction. Therefore, A must be a liar, so B is not a liar (i.e., B is a truth-teller). B's statement that A is a truth-teller is false, which fits because A is a liar."
+        }
+    ],
+    "Seating Arrangements (Linear, Circular)": [
+        {
+            "question": "Five friends from different countries sit circularly. The Italian sits opposite the tea-drinker. The Japanese sits two seats to the left of the coffee-drinker. The Brazilian drinks juice. The Chinese is adjacent to the American. Milk is drunk by someone adjacent to juice. Who drinks coffee?",
+            "choices": [
+                "A) American",
+                "B) Chinese",
+                "C) Japanese",
+                "D) Brazilian"
+            ],
+            "answer": "A",
+            "explanation": "Brazilian (juice) has milk adjacent. Italian opposite tea. Japanese -> 2 seats left of coffee -> American must be coffee (Chinese adjacent to American, not conflicting with other constraints)."
+        },
+        {
+            "question": "Eight people A, B, C, D, E, F, G, H sit around a circular table. Four face the center, and four face outward. A is third to the left of B, who faces the opposite direction of D. C (a doctor) sits adjacent to both E and F. G faces the center and is two seats to the left of H, who is not adjacent to B. If E faces outward, who is the engineer?",
+            "choices": [
+                "A) G",
+                "B) H",
+                "C) F",
+                "D) D"
+            ],
+            "answer": "B",
+            "explanation": "H's position and facing direction (outward) are derived from clues. Since C is a doctor and professions aren't repeated, H must be the engineer."
+        },
+        {
+            "question": "Twelve people sit in two parallel rows of six each. Front row faces south, back row faces north. P is behind Q, who is third from the left end. R faces T, who is adjacent to S. U is two places to the right of V in the same row. If W is at an extreme end in the back row, who sits at the front row's extreme right?",
+            "choices": [
+                "A) S",
+                "B) T",
+                "C) U",
+                "D) V"
+            ],
+            "answer": "A",
+            "explanation": "Q is third from left in front row; P is behind Q. R faces T (adjacent to S). U and V positions fix S at the front right."
+        }
+    ],
+    "Puzzles involving generations and family tree logic": [
+        {
+            "question": "In a family gathering, Aryan pointed to a man and said, 'He is the son of my mother's only sister, who is married to the only brother of my paternal grandfather's daughter-in-law.' How is the man related to Aryan?",
+            "choices": [
+                "A) Paternal Uncle",
+                "B) Maternal Cousin",
+                "C) Brother-in-law",
+                "D) Nephew"
+            ],
+            "answer": "B",
+            "explanation": "Aryan's mother's only sister = maternal aunt. Her son = Aryan's maternal cousin."
+        },
+        {
+            "question": "If Priya's father's only sister is the mother of Ravi, whose father is married to Tanvi's mother's maternal grandmother's granddaughter, how is Tanvi related to Priya?",
+            "choices": [
+                "A) Daughter",
+                "B) Niece",
+                "C) Sister",
+                "D) Mother"
+            ],
+            "answer": "C",
+            "explanation": "Ravi's father is married to Tanvi's mother, making Ravi and Tanvi siblings. Priya and Ravi share the same aunt, implying Ravi is Priya's cousin. Thus, Tanvi and Priya share a father -> sisters."
+        },
+        {
+            "question": "Kunal's great-grandfather has two sons and one daughter. The daughter's only granddaughter is married to the eldest son of Kunal's father's only brother. How is Kunal related to the eldest son's wife?",
+            "choices": [
+                "A) Father-in-law",
+                "B) Brother",
+                "C) Husband",
+                "D) Maternal Uncle"
+            ],
+            "answer": "D",
+            "explanation": "The woman is descended from Kunal's great-grandfather's daughter, and is married into Kunal's paternal line. That makes Kunal her maternal uncle."
+        }
+    ]
+}

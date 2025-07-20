@@ -1,0 +1,122 @@
+[
+  {
+    "topic": "Puzzles involving generations and family tree logic",
+    "question": "A is B's mother. B is C's only son. C is D's husband. D's only sibling, E, is unmarried. E's father, F, has only one son. G is F's wife. If C has no siblings, how is G's son-in-law related to A?",
+    "choices": [
+      "A) Husband",
+      "B) Son",
+      "C) Brother",
+      "D) Father"
+    ],
+    "answer": "A",
+    "explanation": "**A is B's mother, and B is C's only son. ** This implies that A and C are B's parents."
+  },
+  {
+    "topic": "Puzzles involving generations and family tree logic",
+    "question": "P's father, Q, is the only son of R's husband. R has only one child. S is R's daughter-in-law. S has an only child, T. If P is male and T is female, how is P's wife related to T's paternal grandmother?",
+    "choices": [
+      "A) Daughter",
+      "B) Niece",
+      "C) Granddaughter-in-law",
+      "D) Sister-in-law"
+    ],
+    "answer": "C",
+    "explanation": "**Identify key individuals and their primary relationships:**\n    *   \"P's father, Q, is the only son of R's husband. \" This means Q is the son of R's husband."
+  },
+  {
+    "topic": "Puzzles involving generations and family tree logic",
+    "question": "K is married to L. L's brother, M, is the only son of his parents, N and O. O's only daughter, P, has a son Q. Q's maternal uncle is R. R is married to S. If K is the mother of R's only nephew (from R's sibling's side), how is S related to N?",
+    "choices": [
+      "A) Daughter",
+      "B) Daughter-in-law",
+      "C) Sister",
+      "D) Niece"
+    ],
+    "answer": "B",
+    "explanation": "**Identify family members N, O, M, P, L:**\n    *   N and O are parents. *   M is their only son (M is male)."
+  },
+  {
+    "topic": "Puzzles involving generations and family tree logic",
+    "question": "W's father, X, is Y's maternal grandfather. Y's mother, Z, is X's only daughter. Z's husband, A, has a mother C, and C's only other child (besides A) is B (A's sister). If W is male, how is W's sister related to B?",
+    "choices": [
+      "A) Sister",
+      "B) Sister-in-law",
+      "C) Cousin",
+      "D) Aunt"
+    ],
+    "answer": "B",
+    "explanation": "\" So, Z is Y's mother. *   Therefore, X is Z's father."
+  },
+  {
+    "topic": "Puzzles involving generations and family tree logic",
+    "question": "Maya's son, Tom, is married to Sue. Sue's father, Ron, is the only brother of Lily. Lily has only one child, Ben. Ben's paternal grandmother is Gita. Gita's husband, Prem, has only one daughter-in-law (who is Lily). If Tom has no siblings, how is Maya related to Prem?",
+    "choices": [
+      "A) Sister-in-law of Prem's son",
+      "B) Mother of Prem's daughter-in-law's niece's husband",
+      "C) No direct kinship relation",
+      "D) Prem's wife's co-sister"
+    ],
+    "answer": "B",
+    "explanation": "Let's break down the relationships step by step:\n1. **Maya's son, Tom, is married to Sue."
+  },
+  {
+    "topic": "Puzzles involving generations and family tree logic",
+    "question": "A is father of B (male). B is spouse of C. C's only sibling is D. D's mother, E, is married to F. F has only one son-in-law (who is B). G is F's granddaughter, and G's mother is D. How is A related to F?",
+    "choices": [
+      "A) Brother",
+      "B) F's son-in-law",
+      "C) Father-in-law of F's daughter",
+      "D) Grandfather of F's daughter's child"
+    ],
+    "answer": "C",
+    "explanation": "(A --father--> B)\n    *   B is the spouse of C. Since B is male, C is female."
+  },
+  {
+    "topic": "Puzzles involving generations and family tree logic",
+    "question": "Leo's only paternal aunt, Mary, is married to Ned. Ned's father-in-law is Oscar. Oscar has only one son, Paul. Paul's wife, Quinn, has a brother, Ray. Ray's mother is Sarah. If Leo is male, how is Sarah related to Leo's father?",
+    "choices": [
+      "A) Mother",
+      "B) Sister",
+      "C) Mother-in-law",
+      "D) Aunt"
+    ],
+    "answer": "C",
+    "explanation": "Ned's father-in-law is Oscar. This means Oscar is Mary's father."
+  },
+  {
+    "topic": "Puzzles involving generations and family tree logic",
+    "question": "X is the brother of Y's husband's only sibling. Y's father-in-law, P, has only one daughter, Q. Q's husband is R. R's son is S. If X's mother is P's wife, how is S related to X?",
+    "choices": [
+      "A) Son",
+      "B) Nephew",
+      "C) Cousin",
+      "D) Brother-in-law"
+    ],
+    "answer": "B",
+    "explanation": "Let Y's husband be YH. P is Y's father-in-law, so P is YH's father."
+  },
+  {
+    "topic": "Puzzles involving generations and family tree logic",
+    "question": "A's spouse is B. B's only sibling, C (male), is married to H. C's mother, D, is the wife of E. E has only one son-in-law, A (who is B's husband). E's grandson is F, and F's father is C. How is H related to D?",
+    "choices": [
+      "A) Daughter",
+      "B) Sister",
+      "C) Daughter-in-law",
+      "D) Niece"
+    ],
+    "answer": "C",
+    "explanation": "**B's only sibling, C (male), is married to H:**\n    *   B and C are siblings. *   C is male."
+  },
+  {
+    "topic": "Puzzles involving generations and family tree logic",
+    "question": "A is B's maternal uncle. B's mother, C, is the only daughter of D (C's parent). D's only son is E. E's wife is F. F's son is G. A is married to H. How is H related to G's paternal grandmother?",
+    "choices": [
+      "A) Sister",
+      "B) Daughter-in-law",
+      "C) Mother",
+      "D) Aunt"
+    ],
+    "answer": "B",
+    "explanation": "**Identify A and E:**\n    *   A is B's maternal uncle. B's mother is C."
+  }
+]
